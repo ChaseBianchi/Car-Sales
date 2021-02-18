@@ -1,4 +1,4 @@
 import {combineReducers} from 'redux'
-import testReducer from './testReducer'
+import {carSalesReducer} from './CarSalesReducer'
 
-export default combineReducers({testReducer})
+export default combineReducers({carSalesReducer})
